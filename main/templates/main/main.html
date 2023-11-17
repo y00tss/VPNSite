@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+{% load static %}
+<html>
+	<head>
+		<title>{{ name }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				{% include 'main/constant_templates/header.html' %}
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Browsing can be fast</h2>
+							<p>Let`s try our service</p>
+						</header>
+						<span class="image"><img src="{% static 'images/rocket.png' %}" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="{% static 'images/history.svg' %}" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-12-medium">
+									<header>
+										<h2>SheepFish VPN</h2>
+										<p>Information about our team</p>
+									</header>
+								</div>
+								<div class="col-4 col-12-medium">
+									<p>HEEP FISH was founded in 2014 by two students full of enthusiasm and hard work. After only half a year, we have already successfully reached a staff of 7 people, and have become a full-cycle agency, with the trust of five clients. It was at this moment that the eyes burned for more and the work went more actively than you can imagine.</p>
+								</div>
+								<div class="col-4 col-12-medium">
+									<p>Beginning of 2015, 100% positive reviews. After a year of work, the team needed strong HTML, CSS, JS and WordPress programmers, as even more complex tasks were on the way. ...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+
+			<!-- Two -->
+				{% include 'main/constant_templates/support.html' %}
+
+			<!-- Footer -->
+				{% include 'main/constant_templates/footer.html' %}
+		</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.dropotron.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>

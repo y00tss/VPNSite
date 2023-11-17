@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+{% load static %}
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				{% include 'main/constant_templates/header.html' %}
+
+            <!-- main -->
+        this if
+                {% if user.is_authenticated %}
+                <section>
+                <h1></h1>
+					<div class="content">
+						<header class="major">
+                            <div class="image xsmall">
+                                <img src="{{ user.avatar.url }}" alt="" />
+                            </div>
+							<h2>{{ user.first_name }} {{ user.last_name }}</h2>
+							<p>{{ user.email }}</p>
+                            <p>Date joined: {{ user.date_joined }}</p>
+                            <a href="{% url 'edit_profile' %}" class="button small">Edit profile</a>
+                            <a href="{% url 'logout' %}" class="button primary small">Log out</a>
+                            <h2></h2>
+                        {% if attended %}
+                            {% for site in attended %}
+                                {{ site.site__site_name }} : {{ site.click_count }} visit{{ site.click_count|pluralize:"s" }}<br>
+                            {% endfor %}
+                        {% else %}
+                            <p>No sites visited yet</p>
+                        {% endif %}
+                        </header>
+					</div>
+				</section>
+                {% else %}
+                    <section>
+                    <h1></h1>
+					<div class="content">
+						<header class="major">
+							<h2>Oops! Try to log in</h2>
+							<li><a href="{% url 'login' %}" class="button primary">Log In</a></li>
+						</header>
+					</div>
+				</section>
+                {% endif %}
+            </section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.dropotron.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>

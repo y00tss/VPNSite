@@ -1,0 +1,15 @@
+{% load static %}
+<header id="header">
+    <div class="image logo"><img src="{% static 'images/history.svg' %}" alt="Small Image"></div>
+    <nav id="nav">
+        <ul>
+            <li><a href="{% url 'Main' %}">Main page</a></li>
+            <li><a href="{% url 'VPN' %}">Lets VPN</a></li>
+            {% if user.is_authenticated %}
+                <li><a href="{% url 'profile' %}" class="button primary">Profile</a></li>
+            {% else %}
+                <li><a href="{% url 'login' %}" class="button primary">Log In</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</header>
