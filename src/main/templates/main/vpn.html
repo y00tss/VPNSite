@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'VPNSite/assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				{% include 'main/constant_templates/header.html' %}
+
+			<!-- Banner -->
+            <form method="post">
+                {% csrf_token %}
+				<section id="banner">
+                    <div class="content">
+                        <header>
+                            <h2>Press the Rocket</h2>
+                            <p>To start VPN</p>
+                        </header>
+                            <select id="website" name="website" required>
+                                {% for website in websites %}
+                                    <option value="{{ website.id }}">{{ website.site_name }}</option>
+                                {% endfor %}
+                            </select>
+                            <br>
+                            <select id="proxy" name="proxy">
+                                {% for prox in proxy %}
+                                    <option value="{{ prox.id }}">{{ prox.ip }}</option>
+                                {% endfor %}
+                            </select>
+                            <br>
+                            <div class="major">
+                                <a href="{% url 'AddSite' %}" class="button primary">Add your Site</a>
+                                <button type="submit" class="button primary">Start Browsing</button>
+                            </div>
+                    </div>
+                </section>
+            </form>
+
+
+
+			<!-- Two -->
+				{% include 'main/constant_templates/support.html' %}
+
+			<!-- Footer -->
+				{% include 'main/constant_templates/footer.html' %}
+		</div>
+
+		<!-- Scripts -->
+            {% include 'main/constant_templates/scripts.html' %}
+
+
+	</body>
+</html>

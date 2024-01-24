@@ -1,0 +1,34 @@
+
+        """GIT COMMANDS"""
+git add .
+git commit -am "Text commit"
+git push origin
+
+        """DOCKER / SERVER COMMANDS"""
+docker-compose up
+docker-compose build
+docker-compose up --build
+docker-compose down -v
+
+        """PROJECT COMMAND"""
+docker-compose run --rm app sh -c "django-admin startproject src"
+docker-compose run --rm app sh -c "python manage.py startapp core"
+
+        """TESTING COMMANDS"""
+docker-compose run --rm app sh -c "python manage.py test"
+docker-compose run --rm app sh -c "python manage.py wait_for_db"
+
+        """DATABASE COMMANDS"""
+docker-compose run --rm app sh -c "python manage.py makemigrations"
+docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate"
+docker-compose run --rm app sh -c "python manage.py migrate"
+docker volume rm src-db-1_dev-db-data
+
+        """LINTING COMMANDS"""
+docker-compose run --rm app sh -c "flake8"
+
+        """USER COMMANDS"""
+docker-compose run --rm app sh -c "python manage.py createsuperuser"
+docker-compose run --rm app sh -c "python manage.py changepassword admin"
+docker-compose run --rm app sh -c "python manage.py createsuperuser --delete admin"
+docker-compose run --rm app sh -c "python manage.py migrate admin zero"

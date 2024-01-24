@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+	<head>
+		<title>{{ name }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'VPNSite/assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				{% include 'main/constant_templates/header.html' %}
+
+			<!-- Banner -->
+				<section>
+					<div class="content">
+                        <div class="major">
+                            <form method="post" class="cta">
+                                <div class="row gtr-uniform gtr-50">
+                                    {% csrf_token %}
+                                    {{ form.as_p }}
+                                    <button type="submit" class="button primary">Sign up</button>
+                                </div>
+                            </form>
+                        </div>
+					</div>
+				</section>
+
+		<!-- Scripts -->
+            {% include 'main/constant_templates/scripts.html' %}
+
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'VPNSite/assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				{% include 'main/constant_templates/header.html' %}
+
+            <section id="banner">
+                <div class="content">
+                    <section class="cta">
+                        <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <button class="button primary fit" type="submit">Save changes</button>
+                    </section>
+                </div>
+            </section>
+
+		</div>
+
+		<!-- Scripts -->
+            {% include 'main/constant_templates/scripts.html' %}
+
+	</body>
+</html>

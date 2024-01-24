@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'VPNSite/assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				{% include 'main/constant_templates/header.html' %}
+
+            <!-- main -->
+                <section>
+                <h1></h1>
+					<div class="content">
+						<header class="major">
+                            <div class="image xsmall">
+                                <img src="{{ user.avatar.url }}" alt="" />
+                            </div>
+							<h2>{{ user.first_name }} {{ user.last_name }}</h2>
+							<p>{{ user.email }}</p>
+                            <p>Date joined: {{ user.date_joined }}</p>
+                            <a href="{% url 'edit_profile' %}" class="button small">Edit profile</a>
+                            <a href="{% url 'logout' %}" class="button primary small">Log out</a>
+                            <h2></h2>
+                        {% if attended %}
+                            {% for site in attended %}
+                                {{ site.site__site_name }} : {{ site.click_count }} visit{{ site.click_count|pluralize:"s" }}<br>
+                            {% endfor %}
+                        {% else %}
+                            <p>No sites visited yet</p>
+                        {% endif %}
+                        </header>
+					</div>
+				</section>
+            </section>
+
+		</div>
+
+		<!-- Scripts -->
+            {% include 'main/constant_templates/scripts.html' %}
+
+	</body>
+</html>
