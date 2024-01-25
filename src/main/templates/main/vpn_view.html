@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'VPNSite/assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				{% include 'main/constant_templates/header.html' %}
+
+			<!-- Banner -->
+				<section id="banner">
+                   <section id="banner">
+                        <div class="content">
+                            <p>Your current IP: {{ proxy.ip }}</p>
+                            <p>link - {{ http }}</p>
+                            <p>Sent data : {{ request_size }} MB</p>
+                            <p>Site value : {{ response_size }} MB</p>
+                            <iframe src="{{ link }}" width="1200" height="740" frameborder="0"></iframe>
+                        </div>
+                    </section>
+                </section>
+
+
+			<!-- Two -->
+				{% include 'main/constant_templates/support.html' %}
+
+			<!-- Footer -->
+				{% include 'main/constant_templates/footer.html' %}
+		</div>
+
+		<!-- Scripts -->
+            {% include 'main/constant_templates/scripts.html' %}
+	</body>
+</html>
