@@ -14,19 +14,15 @@
 				{% include 'main/constant_templates/header.html' %}
 
 			<!-- Banner -->
-				<section id="banner">
-                   <section id="banner">
-                        <div class="content">
-                            <p>Your current IP: {{ proxy.ip }}</p>
-                            <p>link - {{ http }}</p>
-                            <p>Sent data : {{ request_size }} MB</p>
-                            <p>Site value : {{ response_size }} MB</p>
-                            <iframe src="{{ link }}" width="1200" height="740" frameborder="0"></iframe>
-                        </div>
-                    </section>
+               <section id="banner">
+                    <div class="content">
+                        <p>Your current IP: {{ proxy.ip }}</p>
+                        <p>Sent data : {{ request_size }}</p>
+                        <p>Site value : {{ response_size }} MB</p>
+                        <iframe src="{{ link }}" width="1200" height="740" frameborder="0"></iframe>
+                    </div>
                 </section>
-
-
+            
 			<!-- Two -->
 				{% include 'main/constant_templates/support.html' %}
 
@@ -34,7 +30,7 @@
 				{% include 'main/constant_templates/footer.html' %}
 		</div>
 
-		<!-- Scripts -->
-            {% include 'main/constant_templates/scripts.html' %}
+		    <!-- Scripts -->
+                {% include 'main/constant_templates/scripts.html' %}
 	</body>
 </html>

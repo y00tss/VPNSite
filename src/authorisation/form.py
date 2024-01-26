@@ -2,25 +2,29 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from authorisation.models import CustomUser
 
-# ------------------------------------------------Registration FORM------------------------------------------------
-
 
 class SignUpForm(UserCreationForm):
+    """Registration form for new users"""
 
     class Meta:
         model = CustomUser
-        fields = ('username', 'password1', 'password2')
-
-# ------------------------------------------------Registration FORM------------------------------------------------
-
-
-# ---------------------------------------------------EDITION FORM---------------------------------------------------
+        fields = (
+            'username',
+            'password1',
+            'password2',
+        )
 
 
 class ProfileEditForm(forms.ModelForm):
+    """Edit form for user profile"""
+
     class Meta:
         model = CustomUser
-        fields = ('first_name', 'last_name', 'username', 'email', 'password', 'avatar')
-
-
-# ---------------------------------------------------EDITION FORM---------------------------------------------------
+        fields = (
+            'first_name',
+            'last_name',
+            'username',
+            'email',
+            'password',
+            'avatar',
+        )

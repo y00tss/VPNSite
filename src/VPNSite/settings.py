@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # my apps
     'authorisation',
     'main',
+    'VPN',
 ]
 
 MIDDLEWARE = [

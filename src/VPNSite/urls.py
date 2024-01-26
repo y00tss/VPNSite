@@ -21,14 +21,10 @@ urlpatterns = [
     path('add_site/', main_views.add_site, name='AddSite'),
     path('vpn/<str:site>', main_views.brows_vpn, name='VPNSite'),
 
-# authorisation #
+    # authorisation #
     path('closed/', auth_views.closed_access, name='closed_access'),
     path('profile/', auth_views.profile_view, name='profile'),
     path('singup/', auth_views.singup, name='singup'),
     path('edit_profile/', auth_views.edit_profile, name='edit_profile'),
-    path('', include('django.contrib.auth.urls')),
-
-
-
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
