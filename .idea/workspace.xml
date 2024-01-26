@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f57e0e78-d41b-46bf-afba-6aab593086cc" name="Changes" comment="s">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VPNSite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VPNSite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPN/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_html-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_html-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_vendor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/noscript.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/noscript.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/images/profile_avatar/Без_названия.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/templates/authorisation/editprofile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/templates/authorisation/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/templates/registration/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorisation/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmdcommands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmdcommands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0002_proxy_available.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0003_websites.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0004_siteattended.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/add_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/constant_templates/closed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/constant_templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/constant_templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/constant_templates/support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/vpn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/vpn_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authorisation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/authorisation/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authorisation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/authorisation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;y00tss&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="89c7899b-f71c-41a2-85c5-d46b45b80787" />
+        <option name="url" value="https://github.com/y00tss/VPNSite.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2YAu3IqUuirvjl0qhk6JSjd9Zpn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.test.executor": "Run",
+    "Python.test_proxy.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "Merging test",
+    "last_opened_file_path": "C:/Users/Mykhailo/Desktop/Python/VPNSite/src/main/templates/main/constant_templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\src\main\templates\main\constant_templates" />
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\VPN" />
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\main\templates\main" />
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\main\templates\main\constant_templates" />
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite" />
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\src" />
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\VPN" />
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\authorisation\templates\registration" />
+      <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\VPNSite\static\VPNSite" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="Test: main.tests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="VPNSite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="main.tests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: main.tests.ViewsTestCase" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="VPNSite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="main.tests.ViewsTestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: main.tests.ViewsTestCase.test_main_view" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="VPNSite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="main.tests.ViewsTestCase.test_main_view" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VPNSite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/VPN/VPN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/VPN/VPN/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_proxy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VPNSite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_proxy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VPNSite" type="Python.DjangoServer" factoryName="Django server">
+      <module name="VPNSite" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_proxy" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Django tests.Test: main.tests.ViewsTestCase.test_main_view" />
+        <item itemvalue="Django tests.Test: main.tests.ViewsTestCase" />
+        <item itemvalue="Django tests.Test: main.tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f57e0e78-d41b-46bf-afba-6aab593086cc" name="Changes" comment="" />
+      <created>1699980505184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699980505184</updated>
+      <workItem from="1699980595176" duration="13754000" />
+      <workItem from="1699994797920" duration="1964000" />
+      <workItem from="1700033288626" duration="11400000" />
+      <workItem from="1700056491476" duration="22383000" />
+      <workItem from="1700080792476" duration="4420000" />
+      <workItem from="1700113433691" duration="1218000" />
+      <workItem from="1700118452816" duration="29453000" />
+      <workItem from="1700160568048" duration="126000" />
+      <workItem from="1700160722122" duration="202000" />
+      <workItem from="1700160946911" duration="104000" />
+      <workItem from="1700161067873" duration="18450000" />
+      <workItem from="1700184465994" duration="9000" />
+      <workItem from="1700199255581" duration="2141000" />
+      <workItem from="1700204391090" duration="9000" />
+      <workItem from="1700469806175" duration="178000" />
+      <workItem from="1700470082977" duration="1505000" />
+      <workItem from="1700483731989" duration="526000" />
+      <workItem from="1700484797599" duration="453000" />
+      <workItem from="1700485303528" duration="23000" />
+      <workItem from="1701185579454" duration="14000" />
+      <workItem from="1701185715773" duration="17000" />
+      <workItem from="1706086621605" duration="16413000" />
+      <workItem from="1706175952655" duration="22766000" />
+      <workItem from="1706256448046" duration="3433000" />
+      <workItem from="1706260875898" duration="859000" />
+      <workItem from="1706266448393" duration="2397000" />
+    </task>
+    <task id="LOCAL-00001" summary="выывы">
+      <option name="closed" value="true" />
+      <created>1700484057999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700484057999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="test" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="выывы" />
+    <option name="LAST_COMMIT_MESSAGE" value="выывы" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/VPNSite/urls.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/form.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests_ViewsTestCase.coverage" NAME="Test: authorisation.tests.ViewsTestCase Coverage Results" MODIFIED="1700136306886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests_CustomUserModelTest.coverage" NAME="Test: authorisation.tests.CustomUserModelTest Coverage Results" MODIFIED="1700135710994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests_CustomUserModelTest_test_user_creation.coverage" NAME="Test: authorisation.tests.CustomUserModelTest.test_user_creation Coverage Results" MODIFIED="1700135854960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests_ViewsTestCase_test_profile_view_authenticated.coverage" NAME="Test: authorisation.tests.ViewsTestCase.test_profile_view_authenticated Coverage Results" MODIFIED="1700136140844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1706208314334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests_ViewsTestCase_setUp.coverage" NAME="Test: authorisation.tests.ViewsTestCase.setUp Coverage Results" MODIFIED="1700136282168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$test.coverage" NAME="test Coverage Results" MODIFIED="1706208341319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/VPN/VPN" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests.coverage" NAME="Test: authorisation.tests Coverage Results" MODIFIED="1700136204970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$user_agent.coverage" NAME="user_agent Coverage Results" MODIFIED="1700084580716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VPN" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__main_tests_ViewsTestCase.coverage" NAME="Test: main.tests.ViewsTestCase Coverage Results" MODIFIED="1700136449004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests_StatisticModelTest.coverage" NAME="Test: authorisation.tests.StatisticModelTest Coverage Results" MODIFIED="1700135793606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$VPN.coverage" NAME="VPN Coverage Results" MODIFIED="1700131025086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VPN" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__main_tests.coverage" NAME="Test: main.tests Coverage Results" MODIFIED="1700136461214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__main_tests_ViewsTestCase_test_main_view.coverage" NAME="Test: main.tests.ViewsTestCase.test_main_view Coverage Results" MODIFIED="1700136443116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests_ViewsTestCase_test_edit_profile_POST_valid_form.coverage" NAME="Test: authorisation.tests.ViewsTestCase.test_edit_profile_POST_valid_form Coverage Results" MODIFIED="1700136021986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/VPNSite$Test__authorisation_tests_ViewsTestCase_test_edit_profile_GET.coverage" NAME="Test: authorisation.tests.ViewsTestCase.test_edit_profile_GET Coverage Results" MODIFIED="1700135975935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

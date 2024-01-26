@@ -2,10 +2,12 @@
 Views for authorisation app
 """
 from django.contrib.auth import login
+from django.contrib.auth.decorators import login_required
 from django.db.models import Count
 from django.shortcuts import render, redirect
 from authorisation.form import SignUpForm, ProfileEditForm
 from main.models import SiteAttended, WebSites
+from main.service import create_proxy
 
 
 def closed_access(request):
@@ -24,6 +26,8 @@ def singup(request):
         if form.is_valid():
             user = form.save()
             login(request, user)
+            # fill up proxy database for testing with first registration
+            create_proxy()
             return redirect('profile')
     else:
         form = SignUpForm()
@@ -34,6 +38,7 @@ def singup(request):
     )
 
 
+@login_required
 def profile_view(request):
     """View for profile page"""
     if request.user.is_authenticated:
@@ -57,6 +62,7 @@ def profile_view(request):
         )
 
 
+@login_required
 def edit_profile(request):
     """View for edit profile page"""
     if request.user.is_authenticated:

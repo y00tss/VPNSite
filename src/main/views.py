@@ -1,4 +1,5 @@
 import requests
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import (
     render,
     redirect,
@@ -19,7 +20,6 @@ from VPN.proxy import (
 )
 
 
-
 def main(request):
     """View for main page"""
     return render(
@@ -32,6 +32,7 @@ def main(request):
     )
 
 
+@login_required
 def add_site(request):
     """View for add site page"""
     if request.user.is_authenticated:
@@ -100,6 +101,7 @@ def vpn(request):
         )
 
 
+@login_required
 def brows_vpn(request, site):
     """View for brows site with VPN"""
     if request.user.is_authenticated:
@@ -108,7 +110,7 @@ def brows_vpn(request, site):
         proxy_data = get_proxy_data(user_proxy)
 
         # get web site chosen by client
-        website = get_object_or_404(WebSites, site_name=site, user=request.user)
+        website = get_object_or_404(WebSites, site_name=site, user=request.user)  # noqa
         link_target = website.site_url
 
         res = requests.get(link_target, proxies=http, verify=False)
