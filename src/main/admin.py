@@ -10,14 +10,14 @@ class ProxyAdmin(admin.ModelAdmin):
 
 
 @admin.register(WebSites)
-class ProxyAdmin(admin.ModelAdmin):
+class WebSiteAdmin(admin.ModelAdmin):
     list_display = ('site_name', 'site_url', 'user')  # noqa
     list_filter = ('user', 'site_name')
     search_fields = ('user', 'site_name')
 
 
 @admin.register(SiteAttended)
-class ProxyAdmin(admin.ModelAdmin):
+class StatisticAdmin(admin.ModelAdmin):
     list_display = ('site', 'proxy', 'user', 'date')  # noqa
     list_filter = ('user', 'date')
     search_fields = ('user', 'site', 'date')

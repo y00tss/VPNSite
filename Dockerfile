@@ -7,6 +7,7 @@ LABEL maintainer="SheepFish"
 ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /tmp/requirements.txt
+
 COPY ./src /src
 WORKDIR /src
 EXPOSE 8000
