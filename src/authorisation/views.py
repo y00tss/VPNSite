@@ -3,10 +3,18 @@ Views for authorisation app
 """
 from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
-from django.db.models import Count
-from django.shortcuts import render, redirect
-from authorisation.form import SignUpForm, ProfileEditForm
-from main.models import SiteAttended, WebSites
+
+from django.shortcuts import (
+    render,
+    redirect,
+)
+
+from authorisation.form import (
+    SignUpForm,
+    ProfileEditForm,
+)
+
+from main.models import Statistic
 from main.service import create_proxy
 
 
@@ -42,16 +50,12 @@ def singup(request):
 def profile_view(request):
     """View for profile page"""
     if request.user.is_authenticated:
-        attended = SiteAttended.objects.filter(user=request.user) \
-            .values('site__site_name') \
-            .annotate(click_count=Count('site'))
-        websites = WebSites.objects.filter(user=request.user)
+        statistic = Statistic.objects.filter(user=request.user)
         return render(
             request,
             'authorisation/profile.html',
             {'title': 'Profile',
-             'websites': websites,
-             'attended': attended,
+             'statistic': statistic,
              }
         )
     else:

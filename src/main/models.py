@@ -44,10 +44,12 @@ class WebSites(models.Model):
     site_name = models.CharField(
         verbose_name='Site name',
         max_length=50,
+        unique=True,
     )
 
-    site_url = models.URLField(
+    site_url = models.CharField(
         verbose_name='Site url',
+        unique=True,
     )
 
     user = models.ForeignKey(
@@ -64,34 +66,30 @@ class WebSites(models.Model):
         verbose_name_plural = 'Sites'
 
 
-class SiteAttended(models.Model):
-    """Model for attended sites"""
-    site = models.ForeignKey(
-        WebSites,
-        on_delete=models.CASCADE,
-        verbose_name='Site',
-    )
-
-    proxy = models.ForeignKey(
-        Proxy,
-        on_delete=models.CASCADE,
-        verbose_name='Proxy',
-    )
-
+class Statistic(models.Model):
+    """Model for statistic"""
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
         verbose_name='User',
     )
 
-    date = models.DateTimeField(
-        verbose_name='Date',
-        auto_now_add=True,
+    url = models.URLField(
+        unique=False,
+        verbose_name='URL',
     )
 
-    def __str__(self):
-        return f'{self.site} - {self.proxy}'
+    counter = models.IntegerField(
+        default=0,
+        verbose_name='Counter',
+    )
 
-    class Meta:
-        verbose_name = 'Site attended'
-        verbose_name_plural = 'Sites attended'
+    data_sent = models.BigIntegerField(
+        default=0,
+        verbose_name='Data sent',
+    )
+
+    data_received = models.BigIntegerField(
+        default=0,
+        verbose_name='Data received',
+    )

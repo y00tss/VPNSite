@@ -25,6 +25,5 @@ class ProfileEditForm(forms.ModelForm):
             'last_name',
             'username',
             'email',
-            'password',
             'avatar',
         )

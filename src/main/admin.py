@@ -1,5 +1,5 @@
 from django.contrib import admin
-from main.models import Proxy, WebSites, SiteAttended
+from main.models import Proxy, WebSites, Statistic
 
 
 @admin.register(Proxy)
@@ -16,8 +16,8 @@ class WebSiteAdmin(admin.ModelAdmin):
     search_fields = ('user', 'site_name')
 
 
-@admin.register(SiteAttended)
+@admin.register(Statistic)
 class StatisticAdmin(admin.ModelAdmin):
-    list_display = ('site', 'proxy', 'user', 'date')  # noqa
-    list_filter = ('user', 'date')
-    search_fields = ('user', 'site', 'date')
+    list_display = ('user', 'url', 'counter')
+    list_filter = ('counter', 'user')
+    search_fields = ('user', 'url', 'counter')

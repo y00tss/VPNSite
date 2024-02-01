@@ -18,22 +18,27 @@
                 <h1></h1>
 					<div class="content">
 						<header class="major">
-                            <div class="image xsmall">
-                                <img src="{{ user.avatar.url }}" alt="" />
-                            </div>
+{#                            <div class="image xsmall">#}
+{#                                <img src="{{ user.avatar.url }}" alt="" />#}
+{#                            </div>#}
 							<h2>{{ user.first_name }} {{ user.last_name }}</h2>
 							<p>{{ user.email }}</p>
                             <p>Date joined: {{ user.date_joined }}</p>
                             <a href="{% url 'edit_profile' %}" class="button small">Edit profile</a>
                             <a href="{% url 'logout' %}" class="button primary small">Log out</a>
                             <h2></h2>
-                        {% if attended %}
-                            {% for site in attended %}
-                                {{ site.site__site_name }} : {{ site.click_count }} visit{{ site.click_count|pluralize:"s" }}<br>
-                            {% endfor %}
-                        {% else %}
-                            <p>No sites visited yet</p>
-                        {% endif %}
+                           {% if statistic %}
+                                {% for stat in statistic %}
+                                    <ul>
+                                        <strong>URL: {{ stat.url }}</strong><br>
+                                        <strong>Counter: {{ stat.counter }}</strong><br>
+                                        <strong>Data sent: {{ stat.data_sent|filesizeformat }}</strong><br>
+                                        <strong>Data received: {{ stat.data_received|filesizeformat }}</strong><br>
+                                    </ul>
+                                {% endfor %}
+                            {% else %}
+                                <p>No websites available.</p>
+                            {% endif %}
                         </header>
 					</div>
 				</section>

@@ -5,67 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f57e0e78-d41b-46bf-afba-6aab593086cc" name="Changes" comment="s">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VPNSite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VPNSite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPN/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_html-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_html-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_vendor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/libs/_vendor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/noscript.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/sass/noscript.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/form.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/images/profile_avatar/Без_названия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/templates/authorisation/editprofile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/templates/authorisation/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/templates/registration/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/templates/registration/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorisation/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmdcommands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmdcommands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/form.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0002_proxy_available.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0003_websites.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0004_siteattended.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/add_site.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/constant_templates/closed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/constant_templates/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/constant_templates/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/constant_templates/support.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/vpn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/vpn_view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/authorisation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/authorisation/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/add_new_site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/choose_of_site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/closed_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/edit_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/empty_prifle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/final_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/main_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPN/VPN/servers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPN/VPN/windscribe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPN/proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/css/images/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/css/images/ie/banner-overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/css/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/breakpoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/browser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/jquery.dropotron.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/jquery.scrollex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/jquery.scrolly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/rocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/images/history.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/images/pic04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/images/rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/static/VPNSite/site_images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPNSite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VPNSite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/VPNSite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VPNSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/VPNSite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authorisation/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/authorisation/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authorisation/images/profile_avatar/smiley-yellow-face-emoji-on-260nw-1420130639.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authorisation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/authorisation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authorisation/templates/authorisation/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/authorisation/templates/authorisation/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/authorisation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/authorisation/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/migrations/0002_proxy_available.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/migrations/0003_websites.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/migrations/0004_siteattended.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/templates/main/add_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/templates/main/add_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/templates/main/constant_templates/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/templates/main/constant_templates/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/templates/main/vpn_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/templates/main/vpn_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,27 +132,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.test.executor": "Run",
-    "Python.test_proxy.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "Merging test",
-    "last_opened_file_path": "C:/Users/Mykhailo/Desktop/Python/VPNSite/src/main/templates/main/constant_templates",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_proxy.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mykhailo/Desktop/Python/VPNSite/src/main/templates/main/constant_templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mykhailo\Desktop\Python\VPNSite\src\main\templates\main\constant_templates" />
@@ -346,7 +359,10 @@
       <workItem from="1706175952655" duration="22766000" />
       <workItem from="1706256448046" duration="3433000" />
       <workItem from="1706260875898" duration="859000" />
-      <workItem from="1706266448393" duration="2397000" />
+      <workItem from="1706266448393" duration="3944000" />
+      <workItem from="1706298106874" duration="6205000" />
+      <workItem from="1706435678058" duration="124000" />
+      <workItem from="1706775228839" duration="17479000" />
     </task>
     <task id="LOCAL-00001" summary="выывы">
       <option name="closed" value="true" />
@@ -397,11 +413,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/VPNSite/urls.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main/form.py</url>
           <line>4</line>
