@@ -18,8 +18,8 @@ urlpatterns = [
     # main #
     path('', main_views.main, name='Main'),
     path('vpn/', main_views.vpn, name='VPN'),
+    path('<str:site>/<path:url>', main_views.brows_vpn, name='VPNSite'),
     path('add_site/', main_views.add_site, name='AddSite'),
-    path('vpn/<str:site>', main_views.brows_vpn, name='VPNSite'),
 
     # authorisation #
     path('closed/', auth_views.closed_access, name='closed_access'),

@@ -7,30 +7,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{% static 'VPNSite/assets/css/main.css' %}" />
 	</head>
+            <!-- Header -->
+            <header id="header">
+                <div class="logo"><img src="{% static 'VPNSite/images/history.svg' %}" alt="Small Image"></div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="{% url 'Main' %}" class="button primary">Main page</a></li>
+                    </ul>
+                </nav>
+            </header>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
 
-			<!-- Header -->
-				{% include 'main/constant_templates/header.html' %}
-
 			<!-- Banner -->
+            <div id="banner-wrapper">
                <section id="banner">
                     <div class="content">
-                        <p>Your current IP: {{ proxy.ip }}</p>
-                        <p>Sent data : {{ request_size }}</p>
-                        <p>Site value : {{ response_size }} MB</p>
-                        <iframe src="{{ link }}" width="1200" height="740" frameborder="0"></iframe>
+                        {{ content|safe }}
                     </div>
-                </section>
-            
+               </section>
+            </div>
+        </div>
 			<!-- Two -->
-				{% include 'main/constant_templates/support.html' %}
+            {% include 'main/constant_templates/support.html' %}
 
 			<!-- Footer -->
-				{% include 'main/constant_templates/footer.html' %}
-		</div>
+            {% include 'main/constant_templates/footer.html' %}
 
 		    <!-- Scripts -->
-                {% include 'main/constant_templates/scripts.html' %}
+            {% include 'main/constant_templates/scripts.html' %}
 	</body>
 </html>

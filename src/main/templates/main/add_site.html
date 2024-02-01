@@ -20,11 +20,13 @@
                             <h2>Add your site</h2>
                             <p>To start VPN</p>
                         </header>
-                            <form method="post" class="major">
+                        <form method="post" class="major">
+                            <div class="form-group">
                                 {% csrf_token %}
                                 {{ form.as_p }}
                                 <button type="submit" href="{% url 'VPN' %}" class="fit button">Add Site</button>
-                            </form>
+                            </div>
+                        </form>
                     </div>
                 </section>
 
