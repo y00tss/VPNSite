@@ -13,6 +13,7 @@
 [![Django Version](https://img.shields.io/badge/Django-4.2-blue.svg)](https://docs.djangoproject.com/en/4.2/releases/4.2/)
 [![PostgreSQL Version](https://img.shields.io/badge/PostgreSQL-13-green.svg)](https://www.postgresql.org/docs/13/release-13-2.html)
 [![Flake8](https://img.shields.io/badge/Flake8-Check%20Code-yellow.svg)](https://flake8.pycqa.org/)
+[![Beautiful Soup Version](https://img.shields.io/badge/beautifulsoup4-4.12.2-orange.svg)](https://pypi.org/project/beautifulsoup4/)
 
 
 ## Running the Project Locally
