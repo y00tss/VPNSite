@@ -1,11 +1,3 @@
-<br>
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/django-logo-negative.svg">
-  <img alt="Dark and Light mode version of the Django logo" src="./assets/django-logo-positive.svg">
-</picture>
-</div>
 
 <br>
 
@@ -40,6 +32,18 @@ docker-compose run --rm app sh -c "python manage.py createsuperuser"
 ```bash
 docker-compose up
 ```
+# Note:
+If you received the same issues:
+
+<img alt="issue" src="https://i.ibb.co/syNFhqD/s.jpg">
+
+Perform the actions below:
+1. ctrl + c
+2. perform docker-compose up command again
+
+There is applied migrations and runserver that looks like on the screenshot
+<img alt="issue" src="https://i.ibb.co/QmHXj8T/s.jpg">
+
 8. Open the link:
 <a href="http://127.0.0.1:8000/" target="_blank">WebApp</a>
 
